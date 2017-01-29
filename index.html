@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Sander VanWilligen - Portfolio</title>
+    <!--Stylesheet Import -->
+    <link rel="stylesheet" href="css\style.css" />
+    <!-- Bootstrap Stylesheet Import -->
+    <link rel="stylesheet" href="js\bootstrap-3.3.7-dist\css\bootstrap.css" />
+
+    <!-- Javascript -->
+    <script src="js\jquery-3.1.1.min.js"></script>
+    <script src="js\bootstrap-3.3.7-dist\js\bootstrap.js"></script>
+	<!--<script src="js\main.js"></script>-->
+	
+	
+</head>
+
+<body>
+
+    <!-- Banner -->
+    <div id="banner" class="container-fluid navbar navbar-default">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4">
+                <h1>Sander VanWilligen - Portfolio</h1>
+            </div>
+        </div>
+    </div>
+	
+	<!-- Sidebar -->
+    <div id="sidebar">
+        <br>
+        <div class="panel-group" style="padding-left: 5px;padding-right: 5px; margin-bottom: 3px;">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<div>
+						<label>
+							<input id="loadImage" type="button" class="btn btn-default" value="Load Image">
+							<input id="selectImage" type="file" name="selectImage" style="display: none;" />
+						</label>
+					</div>
+				</h4>
+			</div>
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<div>
+						<label>
+							<input id="saveData" type="button" class="btn btn-default" value="Save Data">
+						</label>
+					</div>
+				</h4>
+			</div>
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<div>
+						<label>
+							<input id="loadData" type="button" class="btn btn-default" value="Load Data">
+							<input id="selectData" type="file" name="selectData" style="display: none;" />
+						</label>
+					</div>
+				</h4>
+			</div>
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<div>
+						<label>
+							<input id="hideMarkers" type="button" class="btn btn-default" value="Hide Markers">
+						</label>
+					</div>
+				</h4>
+			</div>
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<div>
+						<label>
+							<input id="showMarkers" type="button" class="btn btn-default" value="Show Markers">
+						</label>
+					</div>
+				</h4>
+			</div>
+        </div>
+    </div>
+	
+    <!-- Content -->
+    <div class="container-fluid no-pad" id="content">
+			<div id="mainContent"></div>
+    </div>
+	
+</body>
+
+</html>
