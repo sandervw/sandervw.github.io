@@ -1,4 +1,4 @@
-function hideSection() {
+function hideSections() {
 	document.getElementById('home').style.display = "none";
 	document.getElementById('genEd').style.display = "none";
 	document.getElementById('priorWork').style.display = "none";
