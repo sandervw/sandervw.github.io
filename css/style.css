@@ -2,7 +2,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 110px;
+    height: 13%;
     width: 100%;
     background-color: #74767F;
     color: #fff;
@@ -13,14 +13,15 @@
     position: absolute;
     font-family: ingelby;
     background-color: #8A8C94;
-    top: 110px;
+    top: 13%;
     left: 0px;
-    width: 250px;
-    height: calc(100% - 110px);;
+    width: 13%;
+    height: 87%;;
 }
 html,
 body {
   height: 100%;
+  width: 100%;
 }
 .filter {
     color: #000;
@@ -35,15 +36,10 @@ body {
 }
 #content {
     font-family: ingelby;
-    margin-left: 250px;
-    margin-top: 110px;
-	height: 100%;
-	width: 100%;
-}
-#icon{
-  border: 1px #106c31 solid;
-  height: 260px;
-  padding: 0px!important;
+    margin-left: 14%;
+    margin-top: 6%;
+	height: 87%;
+	width: 84%;
 }
 .no-pad{
   padding: 0px!important;
