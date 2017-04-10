@@ -51,3 +51,8 @@ body {
     font-family: ingelby;
     src: url('../fonts/Ingleby_regular.ttf');
 }
+
+.btn{
+    display: block;
+    width: 100%;
+}
